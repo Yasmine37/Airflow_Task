@@ -537,3 +537,17 @@
 [2025-10-03T00:38:06.567+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:38:06.566+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-10-03T00:38:06.645+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:38:06.644+0000] {dag.py:3954} INFO - Setting next_dagrun for first_taskk to 2025-10-03 00:38:00+00:00, run_after=2025-10-03 00:39:00+00:00
 [2025-10-03T00:38:06.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag1.py took 0.305 seconds
+[2025-10-03T00:38:36.980+0000] {processor.py:161} INFO - Started process (PID=18408) to work on /opt/airflow/dags/dag1.py
+[2025-10-03T00:38:36.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2025-10-03T00:38:36.985+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:38:36.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2025-10-03T00:38:37.030+0000] {processor.py:840} INFO - DAG(s) 'first_taskk' retrieved from /opt/airflow/dags/dag1.py
+[2025-10-03T00:38:37.091+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:38:37.091+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-03T00:38:37.225+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:38:37.224+0000] {dag.py:3954} INFO - Setting next_dagrun for first_taskk to 2025-10-03 00:38:00+00:00, run_after=2025-10-03 00:39:00+00:00
+[2025-10-03T00:38:37.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag1.py took 0.374 seconds
+[2025-10-03T00:39:07.753+0000] {processor.py:161} INFO - Started process (PID=18461) to work on /opt/airflow/dags/dag1.py
+[2025-10-03T00:39:07.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2025-10-03T00:39:07.760+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:39:07.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2025-10-03T00:39:07.826+0000] {processor.py:840} INFO - DAG(s) 'first_taskk' retrieved from /opt/airflow/dags/dag1.py
+[2025-10-03T00:39:07.932+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:39:07.931+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-03T00:39:08.097+0000] {logging_mixin.py:188} INFO - [2025-10-03T00:39:08.096+0000] {dag.py:3954} INFO - Setting next_dagrun for first_taskk to 2025-10-03 00:39:00+00:00, run_after=2025-10-03 00:40:00+00:00
+[2025-10-03T00:39:08.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag1.py took 0.530 seconds
