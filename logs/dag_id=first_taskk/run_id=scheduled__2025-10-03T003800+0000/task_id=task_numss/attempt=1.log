@@ -12,3 +12,13 @@
 [2025-10-03T00:39:15.334+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
   SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
 
+[2025-10-03T00:39:15.450+0000] {task_command.py:426} INFO - Running <TaskInstance: first_taskk.task_numss scheduled__2025-10-03T00:38:00+00:00 [running]> on host 452c0657f430
+[2025-10-03T00:39:15.715+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='first_taskk' AIRFLOW_CTX_TASK_ID='task_numss' AIRFLOW_CTX_EXECUTION_DATE='2025-10-03T00:38:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-03T00:38:00+00:00'
+[2025-10-03T00:39:15.722+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-03T00:39:15.725+0000] {logging_mixin.py:188} INFO - random num is saved
+[2025-10-03T00:39:15.727+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-03T00:39:15.729+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-03T00:39:15.766+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=first_taskk, task_id=task_numss, run_id=scheduled__2025-10-03T00:38:00+00:00, execution_date=20251003T003800, start_date=20251003T003915, end_date=20251003T003915
+[2025-10-03T00:39:15.875+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-10-03T00:39:15.960+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-03T00:39:15.967+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
